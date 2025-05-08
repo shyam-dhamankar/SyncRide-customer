@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/white">
+
+    <EditText
+        android:id="@+id/etEditFrom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="From Location"
+        android:background="@drawable/edittext_background"
+        android:paddingStart="16dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/etEditTo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="To Location"
+        android:background="@drawable/edittext_background"
+        android:paddingStart="16dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/etEditDate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Date"
+        android:focusable="false"
+        android:background="@drawable/edittext_background"
+        android:paddingStart="16dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/etEditTime"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Time"
+        android:focusable="false"
+        android:background="@drawable/edittext_background"
+        android:paddingStart="16dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/etEditFare"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Fare (₹)"
+        android:inputType="number"
+        android:background="@drawable/edittext_background"
+        android:paddingStart="16dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/etEditSeats"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Total Seats"
+        android:inputType="number"
+        android:background="@drawable/edittext_background"
+        android:paddingStart="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnSaveChanges"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Save Changes"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/lightblue"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

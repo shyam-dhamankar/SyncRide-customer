@@ -1,0 +1,7 @@
+#Fri Mar 07 07:56:04 IST 2025
+base.1=D\:\\Project 2025\\March 2025\\Project Sync Ride App\\Project Sync Ride App\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
+path.1=classes2.dex
+base.0=D\:\\Project 2025\\March 2025\\Project Sync Ride App\\Project Sync Ride App\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

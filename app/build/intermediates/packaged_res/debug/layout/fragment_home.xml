@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootLayout"
+    tools:context=".HomeFragment">
+
+    <!-- Fullscreen Google Map -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Bottom Sheet for Ride Search -->
+    <LinearLayout
+        android:id="@+id/rideSearchSheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bottom_sheet_background"
+        android:padding="20dp"
+        android:elevation="10dp"
+        android:layout_gravity="bottom">
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/handle_bar" />
+
+        <EditText
+            android:id="@+id/etFrom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="From"
+            android:background="@drawable/stroked"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/etTo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="To"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stroked"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Date"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:background="@drawable/stroked"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/etSeats"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Seats Required"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stroked"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Search Ride"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/lightblue"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

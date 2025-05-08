@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_trackdriver"
+            android:icon="@drawable/baseline_location_on_24"
+            android:title="Track Driver"
+            android:visible="false"
+            />
+
+        <item
+            android:id="@+id/nav_myride"
+            android:icon="@drawable/baseline_featured_play_list_24"
+            android:title="My Booking" />
+
+        <item
+            android:id="@+id/nav_customerrequest"
+            android:icon="@drawable/baseline_switch_account_24"
+            android:title="Customer Requests"
+            android:visible="false"
+            />
+
+
+        <item
+            android:id="@+id/nav_savedcustomer"
+            android:icon="@drawable/baseline_save_24"
+            android:title="Saved Driver" />
+
+        <item
+            android:id="@+id/nav_profiles"
+            android:icon="@drawable/ic_account_circle_24"
+            android:title="My Account" />
+
+
+    </group>
+
+    <item android:title="Others" >
+
+        <menu >
+            <item
+                android:id="@+id/nav_privacy"
+                android:icon="@drawable/ic_lock_24"
+                android:title="Privacy"
+                />
+
+            <item
+                android:id="@+id/nav_aboutapp"
+                android:icon="@drawable/ic_baseline_info_24"
+                android:title="About App"
+
+                />
+
+            <item
+                android:id="@+id/nav_aboutdeveloper"
+                android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+                android:title="About Developer"
+                android:visible="false"
+                />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout_24"
+                android:title="Logout" />
+
+        </menu>
+
+
+    </item>
+
+</menu>
